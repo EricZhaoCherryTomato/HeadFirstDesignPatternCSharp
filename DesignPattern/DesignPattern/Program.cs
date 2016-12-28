@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//Design Principal: 1. Identify the aspects of your application that vary and separate them from what stays the same.
+//2. Program to an interface, not an implementation. 
 namespace DesignPattern
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //This will be the C# practise version of Head First Design Pattern
-            //Motivation for me to do this is practising the code while reading the book of Head First Design Patter
-            //Each exmple code will be in branch, so it can be easily refactor and update after first commit.
+            
         }
     }
 }
