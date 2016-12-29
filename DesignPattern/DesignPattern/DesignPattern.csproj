@@ -45,9 +45,11 @@
   <ItemGroup>
     <Compile Include="AbstractClasses\Duck.cs" />
     <Compile Include="FlyBehaviors\FlyNoWay.cs" />
+    <Compile Include="FlyBehaviors\FlyRocketPowered.cs" />
     <Compile Include="FlyBehaviors\FlyWithWings.cs" />
     <Compile Include="Interfaces\IFlyBehavior.cs" />
     <Compile Include="Interfaces\IQuackBehavior.cs" />
+    <Compile Include="ModelDuck.cs" />
     <Compile Include="MallardDuck.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
