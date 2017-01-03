@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F4AC8C62-4286-41A0-8B22-6BC0D578D1CB}</ProjectGuid>
+    <ProjectGuid>{9DAC2DC3-EDB9-4160-936C-D7A5A7F13AF7}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DesignPattern</RootNamespace>
-    <AssemblyName>DesignPattern</AssemblyName>
+    <RootNamespace>AdaptorPatttern</RootNamespace>
+    <AssemblyName>AdaptorPatttern</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,27 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractClasses\Duck.cs" />
-    <Compile Include="FlyBehaviors\FlyNoWay.cs" />
-    <Compile Include="FlyBehaviors\FlyRocketPowered.cs" />
-    <Compile Include="FlyBehaviors\FlyWithWings.cs" />
-    <Compile Include="Interfaces\IFlyBehavior.cs" />
-    <Compile Include="Interfaces\IQuackBehavior.cs" />
-    <Compile Include="ModelDuck.cs" />
+    <Compile Include="TurkeyAdaptor.cs" />
+    <Compile Include="Duck.cs" />
     <Compile Include="MallardDuck.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QuackBehviors\MuteQuack.cs" />
-    <Compile Include="QuackBehviors\NormalQuack.cs" />
-    <Compile Include="QuackBehviors\Squeak.cs" />
+    <Compile Include="Turkey.cs" />
+    <Compile Include="WildTurkey.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="Answer.txt" />
-  </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

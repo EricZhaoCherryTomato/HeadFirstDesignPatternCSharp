@@ -24,5 +24,14 @@ namespace DesignPattern.AbstractClasses
         {
             Console.WriteLine("All duck float, even dcoys!");
         }
+
+        public void SetFlyBehavior(IFlyBehavior fb)
+        {
+            FlyBehavior = fb;
+        }
+        public void SetQuackBehavior(IQuackBehavior qb)
+        {
+            QuackBehavior = qb;
+        }
     }
 }
