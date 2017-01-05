@@ -11,7 +11,7 @@ namespace InteratorPattern
     {
         static void Main(string[] args)
         {
-            DinerMenu dm = new DinerMenu();
+            IMenu dm = new DinerMenu();
             Waitress w = new Waitress(dm);
             w.printMenu();
             Console.ReadKey(true);

@@ -5,9 +5,9 @@ namespace InteratorPattern
 {
     public class Waitress
     {
-        private DinerMenu dinerMenu;
+        private IMenu dinerMenu;
 
-        public Waitress(DinerMenu dinerMenu)
+        public Waitress(IMenu dinerMenu)
         {
             this.dinerMenu = dinerMenu;
         }

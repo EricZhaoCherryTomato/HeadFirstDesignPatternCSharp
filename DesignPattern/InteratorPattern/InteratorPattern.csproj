@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Menu\IMenu.cs" />
     <Compile Include="Waitress.cs" />
     <Compile Include="DinerMenuIterator.cs" />
     <Compile Include="IIterator.cs" />
