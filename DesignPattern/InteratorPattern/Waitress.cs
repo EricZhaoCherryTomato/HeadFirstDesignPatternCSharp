@@ -7,15 +7,16 @@ namespace InteratorPattern
     {
         private IMenu dinerMenu;
 
-        public Waitress(IMenu dinerMenu)
+        private MenuComponent allMenus;
+
+        public Waitress(MenuComponent allMenus)
         {
-            this.dinerMenu = dinerMenu;
+            this.allMenus = allMenus;
         }
 
         public void printMenu()
         {
-            IIterator dinIterator = dinerMenu.CreaIterator();
-            printMenu(dinIterator);
+           allMenus.Print();
         }
 
         private void printMenu(IIterator iterator)

@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Menu\IMenu.cs" />
+    <Compile Include="Menu\Menu.cs" />
+    <Compile Include="Menu\MenuComponent.cs" />
     <Compile Include="Waitress.cs" />
     <Compile Include="DinerMenuIterator.cs" />
     <Compile Include="IIterator.cs" />
