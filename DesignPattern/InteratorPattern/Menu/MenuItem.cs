@@ -1,9 +1,11 @@
-﻿namespace InteratorPattern.Menu
+﻿using System;
+
+namespace InteratorPattern.Menu
 {
-    public class MenuItem
+    public class MenuItem : MenuComponent
     {
         private string _description;
-        private string _name;
+        private readonly string _name;
         private double _price;
         private bool _vegetarian;
 
@@ -15,9 +17,14 @@
             _price = price;
         }
 
-        public string GetName()
+        public override string GetName()
         {
             return _name;
+        }
+
+        public override void Print()
+        {
+            Console.WriteLine(GetName());
         }
     }
 }
