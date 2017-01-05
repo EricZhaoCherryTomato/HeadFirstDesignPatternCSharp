@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern", "DesignPatt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatePattern", "TemplatePattern\TemplatePattern.csproj", "{32BD1177-08B7-4950-B95C-2A372B12CBB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteratorPattern", "InteratorPattern\InteratorPattern.csproj", "{19ACB683-6307-43E7-AFE5-11127982AE9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{32BD1177-08B7-4950-B95C-2A372B12CBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32BD1177-08B7-4950-B95C-2A372B12CBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32BD1177-08B7-4950-B95C-2A372B12CBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19ACB683-6307-43E7-AFE5-11127982AE9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19ACB683-6307-43E7-AFE5-11127982AE9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19ACB683-6307-43E7-AFE5-11127982AE9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19ACB683-6307-43E7-AFE5-11127982AE9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
